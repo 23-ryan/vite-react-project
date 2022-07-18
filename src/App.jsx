@@ -6,7 +6,6 @@ import TopReviews from './components/topReviews';
 
 
 function App() {
-   console.log("Hello")
   return (
         <div className="App">
             <NavbarComp />
