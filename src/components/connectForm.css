@@ -1,0 +1,30 @@
+.connect-line{
+    margin-top: 1em;
+    font-size: 2em;
+}
+
+.input-heading{
+    font-family: 'Kaushan Script', cursive;
+    color: aqua;
+    margin: auto;
+}
+
+.write-text{
+    /* background: rgba(255, 255, 255, 0.2);  */
+    margin:auto;
+    color: yellow;
+    font-family: 'Kaushan script', cursive;
+    border-radius: 5px;
+    width: 20%;
+}
+
+.mb-3{
+    display: grid;
+    padding: 0.2em;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

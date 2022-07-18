@@ -1,3 +1,20 @@
 .routes{
     background: rgba(83, 91, 242, 0.2);
 }
+
+.host{
+    font-variant:small-caps;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.host span{
+    color: #007af3;
+}
+
+.bar-item{
+    font-size: 1.5em;
+}
+
+
+

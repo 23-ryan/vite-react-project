@@ -4,6 +4,9 @@ import './topReviews.css'
 function TopReviews(){
     return(
         <div className="reviews">
+            <h1>
+                Check Out Our Inventory
+            </h1>
             <ul className="img-rev">    
                 <li>
                     <img className="arduino" src="/src/images/arduino.jpg" alt="arduino" />
