@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Kaushan+Script&display=swap');
+.reviews{
+    padding:2vw 1vw;
+    text-align: left;
+    display:grid;
+}
+
+li{
+    padding:1vw;
+    list-style: none;
+    display: inline-flex;
+    margin-inline: auto auto;
+}
+
+h1{
+    color: rgb(249, 243, 66);
+    font-family: 'Arizonia', cursive;
+    font-size: 4vw;
+    text-align: center;
+    /* color: rgba(255, 255, 255, 0.8); */
+    /* max-width: 600px; */
+}
+
+p{
+    color: rgba(255, 255, 255, 0.9);
+    font-family: 'Kaushan Script', cursive;
+    margin-top: 5vw;
+    text-align: center;
+    font-size: 1.5vw;
+}
+.content{
+    font-size: 1.5em;
+    padding: 6vw 6vw;
+    margin-left: auto;
+}
+
+
+img{
+    padding: 0.8vw;
+    border-radius: 50%;
+    opacity: 0.8;
+    width:40vw;
+    height:40vw;
+    border: solid 0.8vw rgb(36, 36, 36);
+}
