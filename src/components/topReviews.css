@@ -1,22 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Kaushan+Script&display=swap');
 .reviews{
-    padding:2vw 1vw;
-    text-align: left;
-    display:grid;
+    /* padding:2vw 1vw; */
+    /* text-align: left; */
+    /* display:grid; */
+}
+
+.ing-review{
+    display: grid;
 }
 
 li{
-    padding:1vw;
+    text-align: center;
+    width: 40%;
+    padding:1em;
     list-style: none;
-    display: inline-flex;
-    margin-inline: auto auto;
+    margin: auto auto;
 }
 
 h1{
     color: rgb(249, 243, 66);
     font-family: 'Arizonia', cursive;
-    font-size: 4vw;
+    font-size: 6vw;
     text-align: center;
+    padding:0.3em;
     /* color: rgba(255, 255, 255, 0.8); */
     /* max-width: 600px; */
 }
@@ -31,15 +37,12 @@ p{
 .content{
     font-size: 1.5em;
     padding: 6vw 6vw;
-    margin-left: auto;
+}
+
+.title-center{
+    color: yellow;
+    font-family: 'Arizonia', cursive;
+    font-size: 3em;
 }
 
 
-img{
-    padding: 0.8vw;
-    border-radius: 50%;
-    opacity: 0.8;
-    width:40vw;
-    height:40vw;
-    border: solid 0.8vw rgb(36, 36, 36);
-}
