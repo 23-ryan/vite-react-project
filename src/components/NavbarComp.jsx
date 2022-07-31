@@ -10,6 +10,7 @@ import {
 
 import Home from './Home'
 import Contact from './Contact'
+import Cart from './Cart'
 import Music from './inventories/music'
 import Sports from './inventories/sports'
 import Arduino from './inventories/tech/arduino'
@@ -42,6 +43,7 @@ function NavbarComp(){
                     </NavDropdown.Item>
                   </NavDropdown>
                   <Nav.Link className="bar-item" as={Link} to={"/Contact"}>Contact</Nav.Link>
+                  <Nav.Link className="bar-item" as={Link} to={"/Cart"}>Cart</Nav.Link>
                 </Nav>
               </Navbar.Collapse>
             </Container>
@@ -50,6 +52,7 @@ function NavbarComp(){
           <div>
               <Routes>
                   <Route path="/" element={<Home />}/>
+                  <Route path="/Cart" element={<Cart />}/>
                   <Route path="/Contact" element={<Contact />}/>
                   <Route path="/inventories/music" element={<Music />}/>
                   <Route path="/inventories/sports" element={<Sports />}/>
