@@ -1,8 +1,14 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
+import './Cart.css'
 
-function Cart(){
+function Cart({list, total}){
+
     return (
-        <h1>Cart Section</h1>
+        <div id='card'>
+            <h1>Your Cart Section</h1>
+            {list}
+            <div className="cart-total">Total Cost : {total}</div>
+        </div>
     );
 }
 
