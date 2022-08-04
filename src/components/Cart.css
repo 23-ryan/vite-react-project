@@ -1,0 +1,19 @@
+.cart-item{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2em;
+    color: greenyellow;
+    text-align: center;
+}
+
+span{
+    color: whitesmoke;
+    padding-left:1em;
+}
+
+.cart-total{
+    font-family: 'Kaushan Script', cursive;
+    padding: 1em;
+    font-size: 3.5em;
+    color: ghostwhite;
+    text-align: center;
+}

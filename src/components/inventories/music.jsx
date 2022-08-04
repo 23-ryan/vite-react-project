@@ -1,8 +1,12 @@
 import React from 'react'
+import {Card, Button} from 'react-bootstrap'
+import './inventory.css'
 
 function Music(){
     return(
-        <h1>I love Music</h1>
+        <div>
+            <h1>Musical Instruments</h1>
+        </div>
     );
 }
 

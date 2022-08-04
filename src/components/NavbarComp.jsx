@@ -1,4 +1,4 @@
-import React from 'react' // ES6
+import React, {useState, useEffect} from 'react' // ES6
 import './NavbarComp.css'
 import {Navbar, Container, Nav, NavDropdown} from 'react-bootstrap'
 import {Link} from 'react-router-dom'
@@ -10,6 +10,7 @@ import {
 
 import Home from './Home'
 import Contact from './Contact'
+import Cart from './Cart'
 import Music from './inventories/music'
 import Sports from './inventories/sports'
 import Arduino from './inventories/tech/arduino'
@@ -19,6 +20,11 @@ import Sensor from './inventories/tech/sensors'
 
 
 function NavbarComp(){
+
+  const [cartItems, setCartItems] = useState([]);
+  const [totalCost, setTotalCost] = useState(0);
+
+  
   return (
       <Router>
           <div classsName="App">
@@ -42,6 +48,7 @@ function NavbarComp(){
                     </NavDropdown.Item>
                   </NavDropdown>
                   <Nav.Link className="bar-item" as={Link} to={"/Contact"}>Contact</Nav.Link>
+                  <Nav.Link className="bar-item" as={Link} to={"/Cart"}>Cart</Nav.Link>
                 </Nav>
               </Navbar.Collapse>
             </Container>
@@ -50,13 +57,14 @@ function NavbarComp(){
           <div>
               <Routes>
                   <Route path="/" element={<Home />}/>
+                  <Route path="/Cart" element={<Cart list = {cartItems} setList = {setCartItems} total = {totalCost}/>}/>
                   <Route path="/Contact" element={<Contact />}/>
-                  <Route path="/inventories/music" element={<Music />}/>
-                  <Route path="/inventories/sports" element={<Sports />}/>
-                  <Route path="/inventories/tech/arduino" element={<Arduino />}/>
-                  <Route path="/inventories/tech/broad-band" element={<BroadBand />}/>
-                  <Route path="/inventories/tech/microcontroler" element={<MicroControl />}/>
-                  <Route path="/inventories/tech/sensors" element={<Sensor />}/>
+                  <Route path="/inventories/music" element={<Music list = {cartItems} setList = {setCartItems}/>}/>
+                  <Route path="/inventories/sports" element={<Sports list = {cartItems} setList = {setCartItems} total = {totalCost} setCost = {setTotalCost}/>}/>
+                  <Route path="/inventories/tech/arduino" element={<Arduino list = {cartItems} setList = {setCartItems} total = {totalCost} setCost = {setTotalCost}/>}/>} />
+                  <Route path="/inventories/tech/broad-band" element={<BroadBand list = {cartItems} setList = {setCartItems}/>}/>
+                  <Route path="/inventories/tech/microcontroler" element={<MicroControl list = {cartItems} setList = {setCartItems}/>}/>
+                  <Route path="/inventories/tech/sensors" element={<Sensor list = {cartItems} setList = {setCartItems}/>}/>
               </Routes>
           </div>
         </Router>
