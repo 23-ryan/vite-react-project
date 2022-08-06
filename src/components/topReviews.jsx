@@ -1,16 +1,19 @@
 import React from 'react'
 import './topReviews.css'
 import {Card, Button} from 'react-bootstrap'
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function TopReviews(){
+    const columnsPerRow = 2;
     return(
         <div className="reviews">
             <h1>
                 Check Out These Reviews
             </h1>
-            <ul className="img-rev">    
-                <li>
-                    <Card >
+            <Row xs={1} md={columnsPerRow}>
+                    <Col>
+                    <Card style={{ width: '38rem' }}>
                         <Card.Img variant="top" src="/src/images/arduino.jpg" />
                         <Card.Body className="bg-dark">
                         <Card.Title className="title-center">Ed Sheeran</Card.Title>
@@ -20,9 +23,9 @@ function TopReviews(){
                         </Card.Text>
                         </Card.Body>
                     </Card>
-                </li>
-                <li>
-                <Card>
+                    </Col>
+                <Col>
+                <Card style={{ width: '38rem' }}>
                         <Card.Img variant="top" src="/src/images/micro.jpg" />
                         <Card.Body  className="bg-dark">
                         <Card.Title className="title-center">James Arthur</Card.Title>
@@ -32,10 +35,14 @@ function TopReviews(){
                         </Card.Text>
                         </Card.Body>
                     </Card>
-
-                </li>
-                <li>
-                <Card>
+                    </Col>
+            </Row>
+            <br />
+            <br />
+            <Row xs={1} md={columnsPerRow}>
+                <Col>
+                <Card style={{ width: '38rem' }}>
+                
                         <Card.Img variant="top" src="/src/images/music.jpg" />
                         <Card.Body className="bg-dark">
                         <Card.Title className="title-center">Shawn Mendes</Card.Title>
@@ -45,9 +52,10 @@ function TopReviews(){
                         </Card.Text>
                         </Card.Body>
                     </Card>
-                </li>
-                <li>
-                <Card>
+                    </Col>
+                    <br />
+                <Col>
+                <Card style={{ width: '38rem' }}>
                         <Card.Img variant="top" src="/src/images/sports.png" />
                         <Card.Body className="bg-dark">
                         <Card.Title className="title-center">Charlie Puth</Card.Title>
@@ -57,8 +65,8 @@ function TopReviews(){
                         </Card.Text>
                         </Card.Body>
                     </Card>
-                </li>
-            </ul>
+                    </Col>
+            </Row>
         </div>
     );
 }

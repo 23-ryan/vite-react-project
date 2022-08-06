@@ -18,11 +18,11 @@ import BroadBand from './inventories/tech/broad-band'
 import MicroControl from './inventories/tech/microcontrolers'
 import Sensor from './inventories/tech/sensors'
 
+import useCart from './inventories/useCart';
 
 function NavbarComp(){
 
-  const [cartItems, setCartItems] = useState([]);
-  const [totalCost, setTotalCost] = useState(0);
+  const {list, totalCost, updateCart} = useCart(); // the custom HOOK
 
   
   return (
@@ -57,14 +57,14 @@ function NavbarComp(){
           <div>
               <Routes>
                   <Route path="/" element={<Home />}/>
-                  <Route path="/Cart" element={<Cart list = {cartItems} setList = {setCartItems} total = {totalCost}/>}/>
+                  <Route path="/Cart" element={<Cart list={list} total={totalCost} />}/>
                   <Route path="/Contact" element={<Contact />}/>
-                  <Route path="/inventories/music" element={<Music list = {cartItems} setList = {setCartItems}/>}/>
-                  <Route path="/inventories/sports" element={<Sports list = {cartItems} setList = {setCartItems} total = {totalCost} setCost = {setTotalCost}/>}/>
-                  <Route path="/inventories/tech/arduino" element={<Arduino list = {cartItems} setList = {setCartItems} total = {totalCost} setCost = {setTotalCost}/>}/>} />
-                  <Route path="/inventories/tech/broad-band" element={<BroadBand list = {cartItems} setList = {setCartItems}/>}/>
-                  <Route path="/inventories/tech/microcontroler" element={<MicroControl list = {cartItems} setList = {setCartItems}/>}/>
-                  <Route path="/inventories/tech/sensors" element={<Sensor list = {cartItems} setList = {setCartItems}/>}/>
+                  <Route path="/inventories/music" element={<Music updateCart = {updateCart}/>}/>
+                  <Route path="/inventories/sports" element={<Sports updateCart = {updateCart}/>}/>
+                  <Route path="/inventories/tech/arduino" element={<Arduino updateCart = {updateCart}/>}/>
+                  <Route path="/inventories/tech/broad-band" element={<BroadBand updateCart = {updateCart}/>}/>
+                  <Route path="/inventories/tech/microcontroler" element={<MicroControl updateCart = {updateCart}/>}/>
+                  <Route path="/inventories/tech/sensors" element={<Sensor updateCart = {updateCart}/>}/>
               </Routes>
           </div>
         </Router>
