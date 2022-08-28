@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Kaushan+Script&display=swap');
+
+.title-center{
+    color: white;
+    font-family: 'Kaushan Script';
+    font-size: 2em;
+}
+
+.head{
+    text-align: center;
+    margin: auto auto;
+}
+
+.heading{
+    color: rgb(249, 243, 66);
+    font-family: 'Arizonia', cursive;
+    font-size: 6.5em;
+    text-align: center;
+    padding:0.3em;
+}
+
+.headingSmall{
+    color: rgb(249, 243, 66);
+    font-family: 'Kaushan Script';
+    font-size: 2em;
+    text-align: center;
+    padding:0.3em;
+}
+
+.headingSmall:hover {
+    opacity: 0.6;
+    color: rgba(82, 197, 254, 0.799);
+}
+
+.icon{
+    color: white;
+    font-size: 2em;
+    display: flex !important;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center
+    
+}
+
+.text{
+    text-align: center;
+    align-items: center;
+    font-size: 2em;
+    color: white;
+    
+}
+
