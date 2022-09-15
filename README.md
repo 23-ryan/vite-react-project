@@ -1,5 +1,6 @@
 # React JS App
-This project was done under course offered by **Learner's Space**, *Introductory  to Web Development*
+
+![This React JS App was developed under the course offered by **Learner's Space**, *Introductory  to Web Development*](https://www.freecodecamp.org/news/react-js-for-beginners-props-state-explained/)
 
 <br>
 
@@ -20,4 +21,4 @@ The Web app consists of a home page displaying the rewiews of inventory products
 <br>
 
 ## Next JS
-At the end we shifted from **React JS** to **Next JS** to achieve **search engine optimization** and **server side rendering** to get a better rank in the crawlers index system.
+At the end we shifted from **React JS App** to [**Next JS App**](https://github.com/23-ryan/next-App) to achieve **search engine optimization** and **server side rendering** to get a better rank in the crawlers index system.
