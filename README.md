@@ -1,6 +1,6 @@
 # React JS App
 
-![](./public/reactnew.png)
+![](./public/reactnew.png){style="display: block; margin: 0 auto"}
 
 This React JS App was developed under the course offered by **Learner's Space**, *Introductory  to Web Development*
 <br>
