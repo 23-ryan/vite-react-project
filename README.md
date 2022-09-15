@@ -1,6 +1,6 @@
 # React JS App
 
-![](./public/react.png)
+![](./public/reactnew.png)
 
 This React JS App was developed under the course offered by **Learner's Space**, *Introductory  to Web Development*
 <br>
