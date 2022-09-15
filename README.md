@@ -2,7 +2,7 @@
 
 <p align="center">
     <img src="./public/reactnew.png">
-p>
+</p>
 
 This React JS App was developed under the course offered by **Learner's Space**, *Introductory  to Web Development*
 <br>
