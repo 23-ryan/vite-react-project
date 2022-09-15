@@ -1,7 +1,8 @@
 # React JS App
 
-![This React JS App was developed under the course offered by **Learner's Space**, *Introductory  to Web Development*](https://www.freecodecamp.org/news/react-js-for-beginners-props-state-explained/)
+![]()
 
+This React JS App was developed under the course offered by **Learner's Space**, *Introductory  to Web Development*
 <br>
 
 >The duration of the programm 4 weeks.
