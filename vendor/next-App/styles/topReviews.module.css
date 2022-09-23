@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Kaushan+Script&display=swap');
+
+.reviews{
+    padding: 2em;
+}
+
+.heading{
+    color: rgb(249, 243, 66);
+    font-family: 'Arizonia', cursive;
+    font-size: 6vw;
+    text-align: center;
+    padding:0.3em;
+
+}
+.reviewTitle{
+    color: yellow;
+    text-align: center;
+    font-family: 'Arizonia', cursive;
+    font-size: 2em;
+}
+
+.text{
+    color: white;
+    font-size: 1.4em;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.title-center{
+    color: yellow;
+    font-family: 'Arizonia', cursive;
+    font-size: 0em;
+}
+
+

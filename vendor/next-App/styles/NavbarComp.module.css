@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Kaushan+Script&display=swap');
+.routes{
+    background: rgba(83, 91, 242, 0.2);
+}
+
+.host{
+    font-variant:small-caps;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.span{
+    color: #007af3;
+}
+
+.bar_item{
+    font-size: 1.5em;
+}
+
+
+
