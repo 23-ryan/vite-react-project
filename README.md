@@ -25,4 +25,4 @@ The Web app consists of a home page displaying the rewiews of inventory products
 <br>
 
 ## Next JS
-At the end we shifted from **React JS App** to [**Next JS App**](https://github.com/23-ryan/next-App) to achieve **search engine optimization** and **server side rendering** to get a better rank in the crawlers index system.
+At the end we shifted from **React JS App** to [**Next JS App**](https://github.com/23-ryan/vite-react-project/tree/master/nextApp/next-App) to achieve **search engine optimization** and **server side rendering** to get a better rank in the crawlers index system.
